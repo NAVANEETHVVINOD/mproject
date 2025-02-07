@@ -1,0 +1,1034 @@
+2025-01-30 16:39:32,344 - sanic.root - INFO - 
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                             Sanic v24.12.0                             │
+  │                    Goin' Fast @ http://0.0.0.0:8080                    │
+  ├───────────────────────┬────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                 │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                      │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                              │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0            │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0,              │
+  │ [48;2;255;13;104m                     [0m │           sanic-ext==23.12.0                   │
+  │ Build Fast. Run Fast. │                                                │
+  └───────────────────────┴────────────────────────────────────────────────┘
+
+2025-01-30 16:39:32,366 - sanic.root - INFO - Sanic Extensions:
+2025-01-30 16:39:32,366 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-30 16:39:32,366 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-30 16:39:32,366 - sanic.root - INFO -   > http 
+2025-01-30 16:39:32,367 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-30 16:39:32,371 - __main__ - INFO - Initializing ML models...
+2025-01-30 16:40:02,651 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 30.266 seconds
+2025-01-30 16:40:02,666 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-30 16:40:02,671 - sanic.server - INFO - Starting worker [17212]
+2025-01-30 16:40:49,171 - sanic.server - INFO - Stopping worker [17212]
+2025-01-30 16:40:49,183 - sanic.server - INFO - Worker complete [17212]
+2025-01-30 16:40:49,183 - sanic.root - INFO - Server Stopped
+2025-01-31 10:08:46,600 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-01-31 10:08:46,678 - sanic.root - INFO - Sanic Extensions:
+2025-01-31 10:08:46,678 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-31 10:08:46,678 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-31 10:08:46,678 - sanic.root - INFO -   > http 
+2025-01-31 10:08:46,678 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-31 10:08:46,709 - __main__ - INFO - Initializing ML models...
+2025-01-31 10:08:56,722 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 10.016 seconds
+2025-01-31 10:08:56,726 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-31 10:08:56,734 - sanic.server - INFO - Starting worker [18792]
+2025-01-31 10:15:31,246 - __main__ - ERROR - Processing error: Error opening <_io.BytesIO object at 0x000001F65BE82BB0>: Format not recognised.
+Traceback (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 122, in transcribe
+    with sf.SoundFile(io.BytesIO(audio_file.body)) as f:
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening <_io.BytesIO object at 0x000001F65BE82BB0>: Format not recognised.
+2025-01-31 11:57:30,465 - sanic.server - INFO - Stopping worker [18792]
+2025-01-31 11:57:30,528 - sanic.server - INFO - Worker complete [18792]
+2025-01-31 11:57:30,533 - sanic.root - INFO - Server Stopped
+2025-01-31 12:33:31,104 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-01-31 12:33:31,154 - sanic.root - INFO - Sanic Extensions:
+2025-01-31 12:33:31,154 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-31 12:33:31,154 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-31 12:33:31,154 - sanic.root - INFO -   > http 
+2025-01-31 12:33:31,154 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-31 12:33:31,177 - __main__ - INFO - Initializing ML models...
+2025-01-31 12:33:40,964 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 9.781 seconds
+2025-01-31 12:33:40,964 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-31 12:33:40,979 - sanic.server - INFO - Starting worker [20996]
+2025-01-31 12:33:57,005 - __main__ - ERROR - FFmpeg processing error: [WinError 2] The system cannot find the file specified
+2025-01-31 12:33:57,005 - __main__ - ERROR - Processing error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 142, in transcribe
+    process_audio_ffmpeg(temp_input_path, temp_output_path)
+  File "C:\Users\smith\SIN01\backend\main.py", line 64, in process_audio_ffmpeg
+    process = subprocess.Popen(
+  File "C:\Users\smith\anaconda3\envs\env\lib\subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\smith\anaconda3\envs\env\lib\subprocess.py", line 1456, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-01-31 13:51:36,285 - sanic.server - INFO - Stopping worker [20996]
+2025-01-31 13:51:36,332 - sanic.server - INFO - Worker complete [20996]
+2025-01-31 13:51:36,347 - sanic.root - INFO - Server Stopped
+2025-01-31 13:54:03,810 - sanic.root - INFO - Sanic Extensions:
+2025-01-31 13:54:03,810 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-31 13:54:03,810 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-31 13:54:03,810 - sanic.root - INFO -   > http 
+2025-01-31 13:54:03,810 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-31 13:54:03,810 - __main__ - INFO - Initializing ML models...
+2025-01-31 13:54:09,928 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 6.125 seconds
+2025-01-31 13:54:09,928 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-31 13:54:09,944 - sanic.server - INFO - Starting worker [19464]
+2025-01-31 14:01:45,772 - sanic.server - INFO - Stopping worker [19464]
+2025-01-31 14:01:45,789 - sanic.server - INFO - Worker complete [19464]
+2025-01-31 14:01:45,789 - sanic.root - INFO - Server Stopped
+2025-01-31 14:52:59,289 - sanic.root - INFO - Sanic Extensions:
+2025-01-31 14:52:59,289 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-31 14:52:59,289 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-31 14:52:59,289 - sanic.root - INFO -   > http 
+2025-01-31 14:52:59,289 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-31 14:52:59,289 - __main__ - INFO - Initializing ML models...
+2025-01-31 14:53:04,845 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 5.547 seconds
+2025-01-31 14:53:04,845 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-31 14:53:04,854 - sanic.server - INFO - Starting worker [18524]
+2025-01-31 15:04:06,712 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:04:06,721 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:04:07,409 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:04:07,409 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:04:07,434 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:04:07,434 - asyncio - WARNING - Executing <Task pending name='Task-9' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 47.281 seconds
+2025-01-31 15:08:24,540 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:08:24,547 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:08:25,713 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:08:25,713 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:08:25,720 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:08:25,729 - asyncio - WARNING - Executing <Task pending name='Task-13' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 117.875 seconds
+2025-01-31 15:14:28,810 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:15:55,153 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:27:46,034 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:27:46,034 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:27:46,674 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:27:46,675 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:27:46,676 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:27:46,678 - asyncio - WARNING - Executing <Task pending name='Task-25' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 19.328 seconds
+2025-01-31 15:29:36,924 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:29:36,933 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:29:37,955 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:29:37,959 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:29:37,973 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:29:37,978 - asyncio - WARNING - Executing <Task pending name='Task-29' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 24.781 seconds
+2025-01-31 15:30:27,539 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:30:27,539 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:30:29,288 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:30:29,297 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:30:29,307 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:30:29,308 - asyncio - WARNING - Executing <Task pending name='Task-33' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 27.297 seconds
+2025-01-31 15:40:39,024 - sanic.server - INFO - Stopping worker [18524]
+2025-01-31 15:40:39,088 - sanic.server - INFO - Worker complete [18524]
+2025-01-31 15:40:39,088 - sanic.root - INFO - Server Stopped
+2025-01-31 15:41:05,793 - sanic.root - INFO - Sanic Extensions:
+2025-01-31 15:41:05,799 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-31 15:41:05,799 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-31 15:41:05,799 - sanic.root - INFO -   > http 
+2025-01-31 15:41:05,801 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-31 15:41:05,801 - __main__ - INFO - Initializing ML models...
+2025-01-31 15:41:11,671 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 5.859 seconds
+2025-01-31 15:41:11,672 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-31 15:41:11,678 - sanic.server - INFO - Starting worker [19292]
+2025-01-31 15:43:01,148 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:43:01,159 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:43:02,026 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:43:02,030 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:43:02,050 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:43:02,070 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 40.750 seconds
+2025-01-31 15:44:46,997 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:44:47,013 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:44:47,822 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:44:47,822 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:44:47,846 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:44:47,857 - asyncio - WARNING - Executing <Task pending name='Task-11' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 58.156 seconds
+2025-01-31 15:47:54,100 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:47:54,100 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:47:54,836 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:47:54,843 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:47:54,850 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:47:54,850 - asyncio - WARNING - Executing <Task pending name='Task-15' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 43.188 seconds
+2025-01-31 15:49:01,967 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:49:01,980 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:49:02,659 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-01-31 15:49:02,659 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-01-31 15:49:02,667 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-31 15:49:02,669 - asyncio - WARNING - Executing <Task pending name='Task-19' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 42.172 seconds
+2025-02-03 13:40:15,535 - sanic.root - INFO - Sanic Extensions:
+2025-02-03 13:40:15,535 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-03 13:40:15,535 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-03 13:40:15,535 - sanic.root - INFO -   > http 
+2025-02-03 13:40:15,535 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-03 13:40:15,535 - __main__ - INFO - Initializing ML models...
+2025-02-03 13:40:24,488 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 8.953 seconds
+2025-02-03 13:40:24,488 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-03 13:40:24,496 - sanic.server - INFO - Starting worker [16956]
+2025-02-03 13:41:19,859 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-02-03 13:41:19,865 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-02-03 13:41:20,618 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-02-03 13:41:20,623 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-02-03 13:41:20,623 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 13:41:20,630 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 31.422 seconds
+2025-02-03 14:05:21,525 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-02-03 14:05:21,527 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-02-03 14:05:22,356 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-02-03 14:05:22,356 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-02-03 14:05:22,361 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:05:22,371 - asyncio - WARNING - Executing <Task pending name='Task-11' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 14.312 seconds
+2025-02-03 14:06:42,727 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-02-03 14:06:42,740 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-02-03 14:06:43,398 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-02-03 14:06:43,411 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-02-03 14:06:43,417 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:06:43,417 - asyncio - WARNING - Executing <Task pending name='Task-15' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 67.937 seconds
+2025-02-03 14:06:50,828 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-02-03 14:06:50,828 - __main__ - ERROR - EMR extraction failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-02-03 14:06:51,638 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/complete "HTTP/1.1 400 Bad Request"
+2025-02-03 14:06:51,638 - __main__ - ERROR - Suggestion generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+2025-02-03 14:06:51,638 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:06:51,638 - asyncio - WARNING - Executing <Task pending name='Task-19' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 8.187 seconds
+2025-02-03 14:07:42,988 - sanic.server - INFO - Stopping worker [16956]
+2025-02-03 14:07:43,020 - sanic.server - INFO - Worker complete [16956]
+2025-02-03 14:07:43,020 - sanic.root - INFO - Server Stopped
+2025-02-03 14:08:08,893 - sanic.root - INFO - Sanic Extensions:
+2025-02-03 14:08:08,893 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-03 14:08:08,893 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-03 14:08:08,893 - sanic.root - INFO -   > http 
+2025-02-03 14:08:08,893 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-03 14:08:08,908 - __main__ - INFO - Initializing ML models...
+2025-02-03 14:08:21,079 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 12.172 seconds
+2025-02-03 14:08:21,085 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-03 14:08:21,147 - sanic.server - INFO - Starting worker [8804]
+2025-02-03 14:09:52,389 - __main__ - ERROR - EMR extraction failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:09:56,981 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:09:56,997 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:09:56,997 - asyncio - WARNING - Executing <Task pending name='Task-8' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 95.812 seconds
+2025-02-03 14:30:06,963 - sanic.server - INFO - Stopping worker [8804]
+2025-02-03 14:30:07,001 - sanic.server - INFO - Worker complete [8804]
+2025-02-03 14:30:07,006 - sanic.root - INFO - Server Stopped
+2025-02-03 14:30:21,166 - sanic.root - INFO - Sanic Extensions:
+2025-02-03 14:30:21,166 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-03 14:30:21,166 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-03 14:30:21,166 - sanic.root - INFO -   > http 
+2025-02-03 14:30:21,166 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-03 14:30:21,183 - __main__ - INFO - Initializing ML models...
+2025-02-03 14:30:26,014 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 4.828 seconds
+2025-02-03 14:30:26,020 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3128, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-03 14:30:26,020 - sanic.server - INFO - Starting worker [6468]
+2025-02-03 14:31:50,017 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:31:50,043 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:31:50,050 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 57.063 seconds
+2025-02-03 14:35:28,583 - __main__ - ERROR - EMR extraction failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:35:30,767 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:35:30,787 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:35:30,797 - asyncio - WARNING - Executing <Task pending name='Task-11' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 125.343 seconds
+2025-02-03 14:38:05,918 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:38:05,936 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:38:05,943 - asyncio - WARNING - Executing <Task pending name='Task-15' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 70.438 seconds
+2025-02-03 14:46:09,877 - __main__ - ERROR - EMR extraction failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:46:11,743 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:46:11,760 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:46:11,760 - asyncio - WARNING - Executing <Task pending name='Task-19' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 23.547 seconds
+2025-02-03 14:49:03,606 - __main__ - ERROR - EMR extraction failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:49:05,752 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:49:05,762 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:49:05,762 - asyncio - WARNING - Executing <Task pending name='Task-23' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 111.094 seconds
+2025-02-03 14:49:41,926 - __main__ - ERROR - EMR extraction failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:49:43,919 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:49:43,925 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:49:43,927 - asyncio - WARNING - Executing <Task pending name='Task-27' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 10.375 seconds
+2025-02-03 14:55:21,417 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:55:21,439 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 14:55:21,444 - asyncio - WARNING - Executing <Task pending name='Task-31' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 64.469 seconds
+2025-02-03 15:01:04,939 - __main__ - ERROR - EMR extraction failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 15:01:06,896 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 15:01:06,909 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 15:01:06,913 - asyncio - WARNING - Executing <Task pending name='Task-35' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 14.640 seconds
+2025-02-03 15:02:20,188 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 15:02:20,188 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 15:02:20,204 - asyncio - WARNING - Executing <Task pending name='Task-39' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 23.704 seconds
+2025-02-03 15:04:22,627 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 15:04:22,646 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 15:04:22,651 - asyncio - WARNING - Executing <Task pending name='Task-43' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 42.532 seconds
+2025-02-03 15:05:15,314 - __main__ - ERROR - Suggestion generation failed: Expecting value: line 1 column 1 (char 0)
+2025-02-03 15:05:15,331 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 15:05:15,336 - asyncio - WARNING - Executing <Task pending name='Task-47' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 40.219 seconds
+2025-02-03 15:12:28,760 - sanic.server - INFO - Stopping worker [6468]
+2025-02-03 15:12:28,800 - sanic.server - INFO - Worker complete [6468]
+2025-02-03 15:12:28,806 - sanic.root - INFO - Server Stopped
+2025-02-03 15:18:18,356 - sanic.root - INFO - Sanic Extensions:
+2025-02-03 15:18:18,356 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-03 15:18:18,362 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-03 15:18:18,362 - sanic.root - INFO -   > http 
+2025-02-03 15:18:18,362 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-03 15:18:18,371 - __main__ - INFO - Initializing ML models...
+2025-02-03 15:18:21,869 - __main__ - ERROR - Model loading failed: Helsinki-NLP/opus-ml-en is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-02-03 15:18:21,869 - __main__ - CRITICAL - Failed to initialize ML models
+2025-02-03 15:18:21,869 - sanic.error - [31mERROR[0m - Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\mixins\startup.py", line [36m[1m1277[0m, in [34m[1mserve_single[0m
+[33m    worker_serve(monitor_publisher=None, **kwargs)[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\serve.py", line [36m[1m121[0m, in [34m[1mworker_serve[0m
+[33m    return _serve_http_1([0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\runners.py", line [36m[1m260[0m, in [34m[1m_serve_http_1[0m
+[33m    loop.run_until_complete(app._server_event("init", "before"))[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py", line [36m[1m636[0m, in [34m[1mrun_until_complete[0m
+[33m    self.run_forever()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py", line [36m[1m603[0m, in [34m[1mrun_forever[0m
+[33m    self._run_once()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py", line [36m[1m1901[0m, in [34m[1m_run_once[0m
+[33m    handle._run()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\asyncio\events.py", line [36m[1m80[0m, in [34m[1m_run[0m
+[33m    self._context.run(self._callback, *self._args)[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py", line [36m[1m2440[0m, in [34m[1m_server_event[0m
+[33m    await self.dispatch([0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\signals.py", line [36m[1m303[0m, in [34m[1mdispatch[0m
+[33m    return await dispatch[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\signals.py", line [36m[1m247[0m, in [34m[1m_dispatch[0m
+[33m    retval = await maybe_coroutine[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py", line [36m[1m1622[0m, in [34m[1m_listener[0m
+[33m    await maybe_coro[0m
+  File "C:\Users\smith\SIN01\backend\main.py", line [36m[1m334[0m, in [34m[1msetup_resources[0m
+[33m    sys.exit(1)[0m
+[38;2;255;13;104m[1mSystemExit[0m: [1m1[0m
+2025-02-03 15:18:21,876 - sanic.root - INFO - Server Stopped
+2025-02-03 15:29:37,998 - sanic.root - INFO - 
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                             Sanic v24.12.0                             │
+  │                    Goin' Fast @ http://0.0.0.0:8080                    │
+  ├───────────────────────┬────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                 │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                      │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                              │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0            │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0,              │
+  │ [48;2;255;13;104m                     [0m │           sanic-ext==23.12.0                   │
+  │ Build Fast. Run Fast. │                                                │
+  └───────────────────────┴────────────────────────────────────────────────┘
+
+2025-02-03 15:29:38,020 - sanic.root - INFO - Sanic Extensions:
+2025-02-03 15:29:38,020 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-03 15:29:38,020 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-03 15:29:38,020 - sanic.root - INFO -   > http 
+2025-02-03 15:29:38,020 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-03 15:29:38,028 - __main__ - INFO - Initializing ML models...
+2025-02-03 15:29:43,720 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 5.687 seconds
+2025-02-03 15:29:43,720 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3044, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-03 15:29:43,736 - sanic.server - INFO - Starting worker [17228]
+2025-02-03 15:30:06,919 - __main__ - INFO - Detected language: en
+2025-02-03 15:30:16,310 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 19.438 seconds
+2025-02-03 15:30:20,885 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-03 15:33:34,789 - sanic.server - INFO - Stopping worker [17228]
+2025-02-03 15:33:34,792 - sanic.server - INFO - Worker complete [17228]
+2025-02-03 15:33:34,792 - sanic.root - INFO - Server Stopped
+2025-02-07 10:38:23,746 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 10:38:23,765 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 10:38:23,767 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 10:38:23,769 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 10:38:23,770 - sanic.root - INFO -   > http 
+2025-02-07 10:38:23,771 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 10:38:23,777 - __main__ - INFO - Initializing ML models...
+2025-02-07 10:38:31,766 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 8.000 seconds
+2025-02-07 10:38:31,766 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3168, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-07 10:38:31,776 - sanic.server - INFO - Starting worker [1928]
+2025-02-07 10:39:16,208 - __main__ - INFO - Detected language: en
+2025-02-07 10:39:25,160 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 24.359 seconds
+2025-02-07 10:39:25,307 - asyncio - WARNING - Executing <Task pending name='Task-8' coro=<TCPConnector._resolve_host_with_throttle() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\aiohttp\connector.py:1026> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\futures.py:385, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> cb=[set.discard(), shield.<locals>._inner_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:847] created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\aiohttp\connector.py:988> took 0.141 seconds
+2025-02-07 10:39:29,813 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 10:40:04,949 - __main__ - INFO - Detected language: en
+2025-02-07 10:40:11,317 - asyncio - WARNING - Executing <Task pending name='Task-17' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 12.235 seconds
+2025-02-07 10:40:15,494 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 10:41:01,409 - __main__ - INFO - Detected language: en
+2025-02-07 10:41:07,221 - asyncio - WARNING - Executing <Task pending name='Task-27' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 11.328 seconds
+2025-02-07 10:41:10,784 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 10:41:38,392 - __main__ - INFO - Detected language: en
+2025-02-07 10:41:44,719 - asyncio - WARNING - Executing <Task pending name='Task-37' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 11.360 seconds
+2025-02-07 10:41:48,239 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 10:50:29,478 - __main__ - INFO - Detected language: en
+2025-02-07 10:50:45,238 - asyncio - WARNING - Executing <Task pending name='Task-47' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 29.000 seconds
+2025-02-07 10:50:45,363 - asyncio - INFO - Getting address info generativelanguage.googleapis.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 125.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.183.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.42', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('216.58.196.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.193.138', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.202', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.10', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.76.42', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.193.106', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.205.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.74', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.138', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.106', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('172.217.167.138', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.193.170', 443))]
+2025-02-07 10:50:49,331 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 10:58:05,192 - __main__ - INFO - Detected language: en
+2025-02-07 10:58:21,490 - asyncio - WARNING - Executing <Task pending name='Task-57' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 28.734 seconds
+2025-02-07 10:58:26,456 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 10:59:45,968 - __main__ - INFO - Detected language: en
+2025-02-07 11:00:00,572 - asyncio - WARNING - Executing <Task pending name='Task-67' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 26.079 seconds
+2025-02-07 11:00:04,528 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:01:35,815 - sanic.server - INFO - Stopping worker [1928]
+2025-02-07 11:01:35,941 - sanic.server - INFO - Worker complete [1928]
+2025-02-07 11:01:35,943 - sanic.root - INFO - Server Stopped
+2025-02-07 11:01:54,216 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 11:01:54,232 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:01:54,249 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:01:54,249 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:01:54,249 - sanic.root - INFO -   > http 
+2025-02-07 11:01:54,249 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:01:54,249 - __main__ - INFO - Initializing ML models...
+2025-02-07 11:02:03,154 - __main__ - INFO - All models loaded successfully
+2025-02-07 11:02:03,362 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 9.109 seconds
+2025-02-07 11:02:03,362 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-07 11:02:03,393 - sanic.server - INFO - Starting worker [19916]
+2025-02-07 11:02:41,102 - __main__ - INFO - Detection stats - Malayalam chars: 0, English words: 4
+2025-02-07 11:02:41,748 - __main__ - INFO - Language detect result: en
+2025-02-07 11:02:41,748 - __main__ - INFO - No strong Malayalam indicators found, classifying as English
+2025-02-07 11:02:41,755 - __main__ - INFO - Detected language: en
+2025-02-07 11:03:54,631 - __main__ - INFO - Using English model for transcription
+2025-02-07 11:03:54,693 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 90.297 seconds
+2025-02-07 11:03:55,004 - asyncio - WARNING - Executing <Task pending name='Task-8' coro=<TCPConnector._resolve_host_with_throttle() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\aiohttp\connector.py:1026> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\futures.py:385, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> cb=[set.discard(), shield.<locals>._inner_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:847] created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\aiohttp\connector.py:988> took 0.312 seconds
+2025-02-07 11:03:55,014 - sanic.root - [34mDEBUG[0m - Response Timeout. Closing connection.
+2025-02-07 11:03:55,061 - sanic.root - [34mDEBUG[0m - Error Page: The client accepts */*, using 'text' from any
+2025-02-07 11:03:55,077 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:03:55,127 - asyncio - INFO - Getting address info generativelanguage.googleapis.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 141.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.74', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.202', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('172.217.163.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.10', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.74', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.77.138', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.77.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.42', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.67.74', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.138', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.42', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.106', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.77.106', 443))]
+2025-02-07 11:04:32,352 - __main__ - INFO - Detection stats - Malayalam chars: 0, English words: 5
+2025-02-07 11:04:32,420 - __main__ - INFO - Language detect result: en
+2025-02-07 11:04:32,421 - __main__ - INFO - No strong Malayalam indicators found, classifying as English
+2025-02-07 11:04:32,421 - __main__ - INFO - Detected language: en
+2025-02-07 11:04:47,817 - __main__ - INFO - Using English model for transcription
+2025-02-07 11:04:47,830 - asyncio - WARNING - Executing <Task pending name='Task-13' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 27.140 seconds
+2025-02-07 11:04:48,169 - asyncio - WARNING - Executing <Handle _SelectorSocketTransport._read_ready() created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\selector_events.py:254> took 0.125 seconds
+2025-02-07 11:04:49,614 - __main__ - ERROR - Gemini API error: 400
+2025-02-07 11:04:49,614 - __main__ - INFO - Retrying Gemini API call...
+2025-02-07 11:04:51,220 - __main__ - ERROR - Gemini API error: 400
+2025-02-07 11:04:51,226 - __main__ - ERROR - EMR extraction failed: Empty response from Gemini API
+2025-02-07 11:04:52,732 - __main__ - ERROR - Gemini API error: 400
+2025-02-07 11:04:52,732 - __main__ - INFO - Retrying Gemini API call...
+2025-02-07 11:04:53,170 - __main__ - ERROR - Gemini API error: 400
+2025-02-07 11:04:53,184 - __main__ - ERROR - Suggestion generation failed: Empty response from Gemini API
+2025-02-07 11:04:53,190 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:06:38,106 - sanic.server - INFO - Stopping worker [19916]
+2025-02-07 11:06:38,215 - sanic.server - INFO - Worker complete [19916]
+2025-02-07 11:06:38,215 - sanic.root - INFO - Server Stopped
+2025-02-07 11:06:39,800 - asyncio - ERROR - Unclosed response
+client_response: <ClientResponse(https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR_GEMINI_API_KEY) [400 Bad Request]>
+<CIMultiDictProxy('Vary': 'Origin', 'Vary': 'X-Origin', 'Vary': 'Referer', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Encoding': 'gzip', 'Date': 'Fri, 07 Feb 2025 05:34:53 GMT', 'Server': 'scaffolding on HTTPServer2', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'X-Content-Type-Options': 'nosniff', 'Server-Timing': 'gfet4t7; dur=245', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked')>
+
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 392, in <module>
+    app.run(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\mixins\startup.py", line 282, in run
+    serve(primary=self)  # type: ignore
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\mixins\startup.py", line 1277, in serve_single
+    worker_serve(monitor_publisher=None, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\serve.py", line 121, in worker_serve
+    return _serve_http_1(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\runners.py", line 304, in _serve_http_1
+    _run_server_forever(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\runners.py", line 183, in _run_server_forever
+    loop.run_forever()
+  File "C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py", line 1901, in _run_once
+    handle._run()
+  File "C:\Users\smith\anaconda3\envs\env\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py", line 160, in connection_task
+    await self._http.http1()
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\http\http1.py", line 123, in http1
+    await self.protocol.request_handler(self.request)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py", line 1378, in handle_request
+    response = await response
+  File "C:\Users\smith\SIN01\backend\main.py", line 358, in transcribe
+    suggestions = await generate_suggestions(emr_data)
+  File "C:\Users\smith\SIN01\backend\main.py", line 285, in generate_suggestions
+    response_text = await call_gemini_api(prompt)
+  File "C:\Users\smith\SIN01\backend\main.py", line 229, in call_gemini_api
+    return await call_gemini_api(prompt, retry - 1)
+  File "C:\Users\smith\SIN01\backend\main.py", line 212, in call_gemini_api
+    response = await session.post(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\aiohttp\client.py", line 728, in _request
+    resp = await req.send(conn)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\aiohttp\client_reqrep.py", line 777, in send
+    self.response = response_class(
+2025-02-07 11:06:59,144 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 11:06:59,198 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:06:59,198 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:06:59,198 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:06:59,198 - sanic.root - INFO -   > http 
+2025-02-07 11:06:59,203 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:06:59,219 - __main__ - INFO - Initializing ML models...
+2025-02-07 11:07:12,147 - __main__ - INFO - All models loaded successfully
+2025-02-07 11:07:12,527 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 13.297 seconds
+2025-02-07 11:07:12,528 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=896, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-07 11:07:12,548 - sanic.server - INFO - Starting worker [16860]
+2025-02-07 11:07:47,070 - __main__ - INFO - Detection stats - Malayalam chars: 0, English words: 2
+2025-02-07 11:07:47,681 - __main__ - INFO - Language detect result: so
+2025-02-07 11:07:47,681 - __main__ - INFO - No strong Malayalam indicators found, classifying as English
+2025-02-07 11:07:47,681 - __main__ - INFO - Detected language: en
+2025-02-07 11:07:52,320 - __main__ - INFO - Using English model for transcription
+2025-02-07 11:07:52,334 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 20.187 seconds
+2025-02-07 11:07:52,528 - asyncio - WARNING - Executing <Task pending name='Task-8' coro=<TCPConnector._resolve_host_with_throttle() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\aiohttp\connector.py:1026> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\futures.py:385, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> cb=[set.discard(), shield.<locals>._inner_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:847] created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\aiohttp\connector.py:988> took 0.203 seconds
+2025-02-07 11:07:56,620 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:08:22,096 - __main__ - INFO - Detection stats - Malayalam chars: 0, English words: 5
+2025-02-07 11:08:22,165 - __main__ - INFO - Language detect result: en
+2025-02-07 11:08:22,165 - __main__ - INFO - No strong Malayalam indicators found, classifying as English
+2025-02-07 11:08:22,165 - __main__ - INFO - Detected language: en
+2025-02-07 11:08:26,748 - __main__ - INFO - Using English model for transcription
+2025-02-07 11:08:26,748 - asyncio - WARNING - Executing <Task pending name='Task-17' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 16.578 seconds
+2025-02-07 11:08:32,256 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:20:00,350 - sanic.server - INFO - Stopping worker [16860]
+2025-02-07 11:20:00,555 - sanic.server - INFO - Worker complete [16860]
+2025-02-07 11:20:00,557 - sanic.root - INFO - Server Stopped
+2025-02-07 11:23:40,378 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 11:23:40,414 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:23:40,414 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:23:40,414 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:23:40,414 - sanic.root - INFO -   > http 
+2025-02-07 11:23:40,419 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:23:40,428 - __main__ - INFO - Initializing ML models...
+2025-02-07 11:23:40,428 - __main__ - INFO - Device set to use cpu
+2025-02-07 11:23:55,197 - __main__ - INFO - All models loaded successfully
+2025-02-07 11:23:55,362 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 14.937 seconds
+2025-02-07 11:23:55,371 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-07 11:23:55,396 - sanic.server - INFO - Starting worker [14932]
+2025-02-07 11:25:12,017 - __main__ - INFO - Detection stats - Malayalam chars: 0, English words: 0
+2025-02-07 11:25:21,052 - __main__ - INFO - Malayalam model check - Malayalam chars: 13
+2025-02-07 11:25:21,052 - __main__ - INFO - Malayalam model detected significant Malayalam content
+2025-02-07 11:25:21,052 - __main__ - INFO - Detected language: ml
+2025-02-07 11:25:33,681 - __main__ - INFO - Using Malayalam model for transcription
+2025-02-07 11:25:38,028 - __main__ - INFO - Translation completed
+2025-02-07 11:25:38,194 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:25:38,258 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 88.797 seconds
+2025-02-07 11:26:37,529 - __main__ - INFO - Detection stats - Malayalam chars: 0, English words: 0
+2025-02-07 11:26:57,794 - __main__ - INFO - Malayalam model check - Malayalam chars: 18
+2025-02-07 11:26:57,794 - __main__ - INFO - Malayalam model detected significant Malayalam content
+2025-02-07 11:26:57,794 - __main__ - INFO - Detected language: ml
+2025-02-07 11:28:21,643 - __main__ - INFO - Using Malayalam model for transcription
+2025-02-07 11:28:27,393 - __main__ - INFO - Translation completed
+2025-02-07 11:28:27,442 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:28:27,456 - asyncio - WARNING - Executing <Task pending name='Task-11' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 138.922 seconds
+2025-02-07 11:30:17,380 - asyncio - WARNING - Executing <Task pending name='Task-4' coro=<Sanic._prep_task.<locals>.do() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:1643> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:1671> took 0.172 seconds
+2025-02-07 11:30:24,274 - sanic.server - INFO - Stopping worker [14932]
+2025-02-07 11:30:24,415 - sanic.server - INFO - Worker complete [14932]
+2025-02-07 11:30:24,430 - sanic.root - INFO - Server Stopped
+2025-02-07 11:30:47,111 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 11:30:47,167 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:30:47,167 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:30:47,167 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:30:47,167 - sanic.root - INFO -   > http 
+2025-02-07 11:30:47,167 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:30:47,191 - __main__ - INFO - Initializing ML models...
+2025-02-07 11:31:14,816 - __main__ - INFO - All models loaded successfully
+2025-02-07 11:31:15,077 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 27.890 seconds
+2025-02-07 11:31:15,081 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3196, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-07 11:31:15,093 - sanic.server - INFO - Starting worker [10404]
+2025-02-07 11:37:12,654 - __main__ - INFO - Detection stats - Malayalam chars: 0, English words: 2
+2025-02-07 11:37:14,722 - __main__ - INFO - Language detect result: so
+2025-02-07 11:37:14,722 - __main__ - INFO - No strong Malayalam indicators found, classifying as English
+2025-02-07 11:37:14,722 - __main__ - INFO - Detected language: en
+2025-02-07 11:37:27,507 - __main__ - INFO - Using English model for transcription
+2025-02-07 11:37:27,521 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 35.172 seconds
+2025-02-07 11:37:28,215 - asyncio - INFO - Getting address info generativelanguage.googleapis.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 687.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.182.10', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('172.217.166.106', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.182.42', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.182.74', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.74', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.42', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.77.170', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.182.138', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.67.74', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.196.10', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.67.42', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.195.202', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.182.106', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('142.250.183.234', 443))]
+2025-02-07 11:37:35,910 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:47:09,699 - sanic.server - INFO - Stopping worker [10404]
+2025-02-07 11:47:10,059 - sanic.server - INFO - Worker complete [10404]
+2025-02-07 11:47:10,099 - sanic.root - INFO - Server Stopped
+2025-02-07 11:47:40,478 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 11:47:40,558 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:47:40,558 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:47:40,558 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:47:40,558 - sanic.root - INFO -   > http 
+2025-02-07 11:47:40,568 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:47:40,588 - __main__ - INFO - Initializing ML models...
+2025-02-07 11:47:50,440 - __main__ - INFO - All models loaded successfully
+2025-02-07 11:47:50,837 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 10.250 seconds
+2025-02-07 11:47:50,844 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=2708, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-07 11:47:50,889 - sanic.server - INFO - Starting worker [20700]
+2025-02-07 11:48:36,995 - __main__ - INFO - Language detection stats:
+            Malayalam chars in English model: 0
+            Malayalam chars in Malayalam model: 13
+            English chars in English model: 13
+            English chars in Malayalam model: 0
+2025-02-07 11:48:37,002 - __main__ - INFO - Malayalam characters detected, classifying as Malayalam
+2025-02-07 11:48:37,002 - __main__ - INFO - Final detected language: ml
+2025-02-07 11:49:12,176 - __main__ - INFO - Malayalam transcription completed
+2025-02-07 11:49:16,835 - __main__ - INFO - Translation completed successfully
+2025-02-07 11:49:17,015 - asyncio - WARNING - Executing <Task pending name='Task-8' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 86.110 seconds
+2025-02-07 11:49:17,078 - sanic.root - [34mDEBUG[0m - Response Timeout. Closing connection.
+2025-02-07 11:49:17,156 - sanic.root - [34mDEBUG[0m - Error Page: The client accepts */*, using 'text' from any
+2025-02-07 11:49:17,172 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:51:20,465 - __main__ - INFO - Language detection stats:
+            Malayalam chars in English model: 0
+            Malayalam chars in Malayalam model: 13
+            English chars in English model: 13
+            English chars in Malayalam model: 0
+2025-02-07 11:51:20,480 - __main__ - INFO - Malayalam characters detected, classifying as Malayalam
+2025-02-07 11:51:20,480 - __main__ - INFO - Final detected language: ml
+2025-02-07 11:51:46,654 - __main__ - INFO - Malayalam transcription completed
+2025-02-07 11:51:49,330 - __main__ - INFO - Translation completed successfully
+2025-02-07 11:51:49,401 - asyncio - WARNING - Executing <Task pending name='Task-13' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 65.563 seconds
+2025-02-07 11:51:49,411 - sanic.root - [34mDEBUG[0m - Response Timeout. Closing connection.
+2025-02-07 11:51:49,480 - sanic.root - [34mDEBUG[0m - Error Page: The client accepts */*, using 'text' from any
+2025-02-07 11:51:49,485 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:52:43,274 - __main__ - INFO - Language detection stats:
+            Malayalam chars in English model: 0
+            Malayalam chars in Malayalam model: 18
+            English chars in English model: 17
+            English chars in Malayalam model: 0
+2025-02-07 11:52:43,288 - __main__ - INFO - Malayalam characters detected, classifying as Malayalam
+2025-02-07 11:52:43,288 - __main__ - INFO - Final detected language: ml
+2025-02-07 11:54:09,291 - __main__ - INFO - Malayalam transcription completed
+2025-02-07 11:54:16,667 - __main__ - INFO - Translation completed successfully
+2025-02-07 11:54:16,856 - asyncio - WARNING - Executing <Task pending name='Task-19' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 126.110 seconds
+2025-02-07 11:54:16,871 - sanic.root - [34mDEBUG[0m - Response Timeout. Closing connection.
+2025-02-07 11:54:16,951 - sanic.root - [34mDEBUG[0m - Error Page: The client accepts */*, using 'text' from any
+2025-02-07 11:54:16,982 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 11:56:48,588 - sanic.server - INFO - Stopping worker [20700]
+2025-02-07 11:56:48,702 - sanic.server - INFO - Worker complete [20700]
+2025-02-07 11:56:48,703 - sanic.root - INFO - Server Stopped
+2025-02-07 11:58:00,159 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, goin' fast w/ 12 workers            │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 11:58:07,562 - sanic.root - [34mDEBUG[0m - Creating multiprocessing context using 'spawn'
+2025-02-07 11:58:07,578 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2025-02-07 11:58:07,609 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-1-0[0m
+2025-02-07 11:58:07,625 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-2-0[0m
+2025-02-07 11:58:07,640 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-3-0[0m
+2025-02-07 11:58:07,640 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-4-0[0m
+2025-02-07 11:58:07,656 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-5-0[0m
+2025-02-07 11:58:07,672 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-6-0[0m
+2025-02-07 11:58:07,687 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-7-0[0m
+2025-02-07 11:58:07,687 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-8-0[0m
+2025-02-07 11:58:07,707 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-9-0[0m
+2025-02-07 11:58:07,725 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-10-0[0m
+2025-02-07 11:58:07,735 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-11-0[0m
+2025-02-07 11:58:31,708 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:31,708 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:31,723 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:31,723 - sanic.root - INFO -   > http 
+2025-02-07 11:58:31,723 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:31,739 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:31,739 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:37,865 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:37,880 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:37,880 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:37,896 - sanic.root - INFO -   > http 
+2025-02-07 11:58:37,896 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:37,927 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:37,943 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:40,411 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:40,427 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:40,427 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:40,443 - sanic.root - INFO -   > http 
+2025-02-07 11:58:40,443 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:40,458 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:40,458 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:41,302 - sanic.error - [31mERROR[0m - Not all workers acknowledged a successful startup. Shutting down.
+
+It seems that one or more of your workers failed to come online in the allowed time. Sanic is shutting down to avoid a deadlock. The current threshold is 30.0s. If this problem persists, please check out the documentation https://sanic.dev/en/guide/deployment/manager.html#worker-ack.
+2025-02-07 11:58:41,333 - sanic.root - INFO - Killing Sanic-Server-0-0 [14884]
+2025-02-07 11:58:41,365 - sanic.error - [31mERROR[0m - Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\mixins\startup.py", line [36m[1m1141[0m, in [34m[1mserve[0m
+[33m    manager.run()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\manager.py", line [36m[1m194[0m, in [34m[1mrun[0m
+[33m    self.monitor()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\manager.py", line [36m[1m291[0m, in [34m[1mmonitor[0m
+[33m    self.wait_for_ack()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\manager.py", line [36m[1m338[0m, in [34m[1mwait_for_ack[0m
+[33m    self.kill()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\manager.py", line [36m[1m375[0m, in [34m[1mkill[0m
+[33m    os.killpg(os.getpgid(process.pid), SIGKILL)[0m
+[38;2;255;13;104m[1mAttributeError[0m: [1mmodule 'os' has no attribute 'killpg'[0m
+2025-02-07 11:58:41,396 - sanic.root - INFO - Server Stopped
+2025-02-07 11:58:44,599 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:44,599 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:44,599 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:44,599 - sanic.root - INFO -   > http 
+2025-02-07 11:58:44,615 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:44,615 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:44,630 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:46,927 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:46,943 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:46,958 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:46,958 - sanic.root - INFO -   > http 
+2025-02-07 11:58:46,974 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:46,990 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:46,990 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:47,084 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:47,099 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:47,099 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:47,099 - sanic.root - INFO -   > http 
+2025-02-07 11:58:47,115 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:47,115 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:47,115 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:47,131 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:47,131 - sanic.root - INFO -   > http 
+2025-02-07 11:58:47,131 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:47,131 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:47,131 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:47,162 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:47,162 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:47,178 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:47,193 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:47,193 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:47,193 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:47,193 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:47,209 - sanic.root - INFO -   > http 
+2025-02-07 11:58:47,209 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:47,193 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:47,209 - sanic.root - INFO -   > http 
+2025-02-07 11:58:47,209 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:47,224 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:47,224 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:47,224 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:47,224 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:47,271 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:47,271 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:47,271 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:47,271 - sanic.root - INFO -   > http 
+2025-02-07 11:58:47,271 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:47,287 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:47,287 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:47,287 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:47,287 - sanic.root - INFO -   > http 
+2025-02-07 11:58:47,287 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:47,287 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:47,287 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:47,303 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:47,303 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:47,318 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 11:58:47,318 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 11:58:47,318 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 11:58:47,318 - sanic.root - INFO -   > http 
+2025-02-07 11:58:47,318 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 11:58:47,318 - __mp_main__ - INFO - Initializing ML models...
+2025-02-07 11:58:47,318 - __mp_main__ - INFO - Using device: cpu
+2025-02-07 11:58:49,630 - __mp_main__ - ERROR - Model loading failed: Could not load model Helsinki-NLP/opus-mt-ml-en with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.marian.modeling_marian.MarianMTModel'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 118, in start
+    assert not _current_process._config.get('daemon'), \
+AssertionError: daemonic processes are not allowed to have children
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+while loading with MarianMTModel, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 118, in start
+    assert not _current_process._config.get('daemon'), \
+AssertionError: daemonic processes are not allowed to have children
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+
+Traceback (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 167, in load_models
+    models['translator'] = pipeline(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\__init__.py", line 940, in pipeline
+    framework, model = infer_framework_load_model(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 302, in infer_framework_load_model
+    raise ValueError(
+ValueError: Could not load model Helsinki-NLP/opus-mt-ml-en with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.marian.modeling_marian.MarianMTModel'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 118, in start
+    assert not _current_process._config.get('daemon'), \
+AssertionError: daemonic processes are not allowed to have children
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+while loading with MarianMTModel, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 118, in start
+    assert not _current_process._config.get('daemon'), \
+AssertionError: daemonic processes are not allowed to have children
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+
+
+2025-02-07 11:58:49,661 - __mp_main__ - CRITICAL - Failed to initialize ML models.  Exiting.
+2025-02-07 11:58:52,521 - sanic.error - [33mWARN[0m - Worker shutdown timed out. Some processes may still be running.
+2025-02-07 11:58:53,713 - sanic.root - [34mDEBUG[0m - Bāi bāi
+2025-02-07 12:03:07,720 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 12:06:17,417 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 12:06:35,260 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 12:06:35,291 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 12:06:35,292 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 12:06:35,293 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 12:06:35,293 - sanic.root - INFO -   > http 
+2025-02-07 12:06:35,293 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 12:06:35,298 - __main__ - INFO - Initializing ML models...
+2025-02-07 12:08:15,285 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 99.984 seconds
+2025-02-07 12:08:15,292 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3248, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-07 12:08:15,305 - sanic.server - INFO - Starting worker [19012]
+2025-02-07 12:13:19,062 - sanic.server - INFO - Stopping worker [19012]
+2025-02-07 12:13:19,096 - sanic.server - INFO - Worker complete [19012]
+2025-02-07 12:13:19,096 - sanic.root - INFO - Server Stopped
+2025-02-07 12:13:26,691 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 12:14:45,984 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 12:15:50,174 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: MedicalTranscription                       │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-02-07 12:15:50,189 - sanic.root - INFO - Sanic Extensions:
+2025-02-07 12:15:50,189 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-02-07 12:15:50,189 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-02-07 12:15:50,189 - sanic.root - INFO -   > http 
+2025-02-07 12:15:50,189 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-02-07 12:15:50,189 - __main__ - INFO - Initializing ML models...
+2025-02-07 12:15:55,526 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 5.328 seconds
+2025-02-07 12:15:55,526 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3112, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-02-07 12:15:55,542 - sanic.server - INFO - Starting worker [14020]
+2025-02-07 12:16:31,429 - __main__ - INFO - Detected language: en
+2025-02-07 12:16:40,864 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:864, Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 22.906 seconds
+2025-02-07 12:16:43,199 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-02-07 12:21:19,299 - sanic.server - INFO - Stopping worker [14020]
+2025-02-07 12:21:19,314 - sanic.server - INFO - Worker complete [14020]
+2025-02-07 12:21:19,314 - sanic.root - INFO - Server Stopped

@@ -1,0 +1,332 @@
+2025-01-30 12:03:00,601 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app                  │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-01-30 12:03:00,630 - sanic.root - INFO - Sanic Extensions:
+2025-01-30 12:03:00,630 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-30 12:03:00,630 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-30 12:03:00,630 - sanic.root - INFO -   > http 
+2025-01-30 12:03:00,630 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-30 12:03:00,646 - __main__ - INFO - Loading ML models...
+2025-01-30 12:03:00,646 - __main__ - INFO - Using device: cpu
+2025-01-30 12:03:11,184 - __main__ - INFO - All models loaded successfully
+2025-01-30 12:03:11,229 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 10.578 seconds
+2025-01-30 12:03:11,231 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-30 12:03:11,240 - sanic.server - INFO - Starting worker [1728]
+2025-01-30 12:11:12,547 - __main__ - ERROR - Processing error: 
+2025-01-30 12:11:12,555 - sanic.access - [38;2;255;13;104mACCESS[0m - 
+2025-01-30 12:11:12,561 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 12.109 seconds
+2025-01-30 14:38:57,508 - sanic.server - INFO - Stopping worker [1728]
+2025-01-30 14:38:57,619 - sanic.server - INFO - Worker complete [1728]
+2025-01-30 14:38:57,635 - sanic.root - INFO - Server Stopped
+2025-01-30 14:39:24,002 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app                  │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-01-30 14:39:24,043 - sanic.root - INFO - Sanic Extensions:
+2025-01-30 14:39:24,043 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-30 14:39:24,043 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-30 14:39:24,043 - sanic.root - INFO -   > http 
+2025-01-30 14:39:24,043 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-30 14:39:24,053 - __main__ - INFO - Loading ML models...
+2025-01-30 14:39:24,053 - __main__ - INFO - Using device: cpu
+2025-01-30 14:39:33,062 - __main__ - INFO - All models loaded successfully
+2025-01-30 14:39:33,109 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 9.063 seconds
+2025-01-30 14:39:33,109 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-30 14:39:33,109 - sanic.server - INFO - Starting worker [20084]
+2025-01-30 14:47:20,814 - __main__ - ERROR - Processing error: 
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening 'C:\\Users\\smith\\SIN01\\backend\\uploads\\temp_1738228636.070738.wav': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 182, in transcribe
+    audio, sr = librosa.load(str(temp_path), sr=None)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\util\decorators.py", line 59, in __wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\audioread\__init__.py", line 132, in audio_open
+    raise NoBackendError()
+audioread.exceptions.NoBackendError
+2025-01-30 14:47:20,839 - asyncio - WARNING - Executing <Task pending name='Task-7' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 4.766 seconds
+2025-01-30 14:47:33,509 - sanic.root - [34mDEBUG[0m - Error Page: The client accepts text/html, using 'html' from any
+2025-01-30 14:47:33,623 - sanic.root - [34mDEBUG[0m - Error Page: The client accepts */*;q=0.8, using 'text' from any
+2025-01-30 14:48:22,651 - __main__ - ERROR - Processing error: 
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening 'C:\\Users\\smith\\SIN01\\backend\\uploads\\temp_1738228702.646529.wav': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 182, in transcribe
+    audio, sr = librosa.load(str(temp_path), sr=None)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\util\decorators.py", line 59, in __wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\audioread\__init__.py", line 132, in audio_open
+    raise NoBackendError()
+audioread.exceptions.NoBackendError
+2025-01-30 14:50:22,687 - sanic.root - [34mDEBUG[0m - KeepAlive Timeout. Closing connection.
+2025-01-30 15:27:27,244 - __main__ - ERROR - Processing error: 
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening 'C:\\Users\\smith\\SIN01\\backend\\uploads\\temp_1738231047.195153.wav': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 182, in transcribe
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\util\decorators.py", line 59, in __wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\audioread\__init__.py", line 132, in audio_open
+    raise NoBackendError()
+audioread.exceptions.NoBackendError
+2025-01-30 15:27:27,279 - asyncio - WARNING - Executing <Task pending name='Task-23' coro=<HttpProtocol.connection_task() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[Task.task_wakeup()] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:429> created at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 0.125 seconds
+2025-01-30 15:27:41,949 - __main__ - ERROR - Processing error: 
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening 'C:\\Users\\smith\\SIN01\\backend\\uploads\\temp_1738231061.938263.wav': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 182, in transcribe
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\util\decorators.py", line 59, in __wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\librosa\core\audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\audioread\__init__.py", line 132, in audio_open
+    raise NoBackendError()
+audioread.exceptions.NoBackendError
+2025-01-30 15:28:39,627 - sanic.server - INFO - Stopping worker [20084]
+2025-01-30 15:28:39,843 - sanic.server - INFO - Worker complete [20084]
+2025-01-30 15:28:39,843 - sanic.root - INFO - Server Stopped
+2025-01-30 15:46:53,056 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app                  │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-01-30 15:46:53,083 - sanic.root - INFO - Sanic Extensions:
+2025-01-30 15:46:53,090 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-30 15:46:53,090 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-30 15:46:53,090 - sanic.root - INFO -   > http 
+2025-01-30 15:46:53,090 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-30 15:46:53,097 - __main__ - INFO - Loading ML models...
+2025-01-30 15:46:53,097 - __main__ - INFO - Using device: cpu
+2025-01-30 15:46:59,555 - __main__ - INFO - All models loaded successfully
+2025-01-30 15:46:59,603 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 6.500 seconds
+2025-01-30 15:46:59,603 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-30 15:46:59,618 - sanic.server - INFO - Starting worker [11548]
+2025-01-30 15:47:29,643 - __main__ - ERROR - Unexpected error: Error opening <_io.BytesIO object at 0x0000020F99B14860>: Format not recognised.
+Traceback (most recent call last):
+  File "C:\Users\smith\SIN01\backend\main.py", line 205, in transcribe
+    with sf.SoundFile(io.BytesIO(audio_file.body), 'r') as f:
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening <_io.BytesIO object at 0x0000020F99B14860>: Format not recognised.
+2025-01-30 15:49:06,742 - sanic.root - [34mDEBUG[0m - Error Page: The client accepts text/html, using 'html' from any
+2025-01-30 15:51:36,759 - sanic.root - [34mDEBUG[0m - KeepAlive Timeout. Closing connection.
+2025-01-30 16:13:05,749 - sanic.server - INFO - Stopping worker [11548]
+2025-01-30 16:13:05,765 - sanic.server - INFO - Worker complete [11548]
+2025-01-30 16:13:05,765 - sanic.root - INFO - Server Stopped
+2025-01-30 16:13:52,986 - sanic.root - INFO - 
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                             Sanic v24.12.0                             │
+  │                    Goin' Fast @ http://0.0.0.0:8080                    │
+  ├───────────────────────┬────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                      │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                              │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0            │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0,              │
+  │ [48;2;255;13;104m                     [0m │           sanic-ext==23.12.0                   │
+  │ Build Fast. Run Fast. │                                                │
+  └───────────────────────┴────────────────────────────────────────────────┘
+
+2025-01-30 16:13:53,003 - sanic.root - INFO - Sanic Extensions:
+2025-01-30 16:13:53,003 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-30 16:13:53,003 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-30 16:13:53,004 - sanic.root - INFO -   > http 
+2025-01-30 16:13:53,004 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-30 16:13:53,004 - __main__ - INFO - Loading ML models...
+2025-01-30 16:13:53,004 - __main__ - INFO - Using device: cpu
+2025-01-30 16:13:59,798 - __main__ - INFO - All models loaded successfully
+2025-01-30 16:13:59,831 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 6.829 seconds
+2025-01-30 16:13:59,831 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-30 16:13:59,845 - sanic.server - INFO - Starting worker [21268]
+2025-01-30 16:18:55,406 - sanic.server - INFO - Stopping worker [21268]
+2025-01-30 16:18:55,406 - sanic.server - INFO - Worker complete [21268]
+2025-01-30 16:18:55,406 - sanic.root - INFO - Server Stopped
+2025-01-30 16:19:04,896 - sanic.root - INFO - 
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                             Sanic v24.12.0                             │
+  │                    Goin' Fast @ http://0.0.0.0:8080                    │
+  ├───────────────────────┬────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                      │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                              │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0            │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0,              │
+  │ [48;2;255;13;104m                     [0m │           sanic-ext==23.12.0                   │
+  │ Build Fast. Run Fast. │                                                │
+  └───────────────────────┴────────────────────────────────────────────────┘
+
+2025-01-30 16:19:04,928 - sanic.root - INFO - Sanic Extensions:
+2025-01-30 16:19:04,928 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-30 16:19:04,928 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-30 16:19:04,928 - sanic.root - INFO -   > http 
+2025-01-30 16:19:04,928 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-30 16:19:04,928 - __main__ - INFO - Loading ML models...
+2025-01-30 16:19:04,928 - __main__ - INFO - Using device: cpu
+2025-01-30 16:19:10,042 - __main__ - INFO - All models loaded successfully
+2025-01-30 16:19:10,074 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 5.141 seconds
+2025-01-30 16:19:10,074 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-30 16:19:10,074 - sanic.server - INFO - Starting worker [19872]
+2025-01-30 16:21:01,361 - sanic.server - INFO - Stopping worker [19872]
+2025-01-30 16:21:01,361 - sanic.server - INFO - Worker complete [19872]
+2025-01-30 16:21:01,361 - sanic.root - INFO - Server Stopped
+2025-01-30 16:21:42,806 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app                  │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-01-30 16:21:42,825 - sanic.root - INFO - Sanic Extensions:
+2025-01-30 16:21:42,825 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-30 16:21:42,826 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-30 16:21:42,826 - sanic.root - INFO -   > http 
+2025-01-30 16:21:42,827 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-30 16:21:42,831 - __main__ - INFO - Loading ML models...
+2025-01-30 16:21:42,831 - __main__ - INFO - Using device: cpu
+2025-01-30 16:22:05,996 - __main__ - INFO - All models loaded successfully
+2025-01-30 16:22:06,090 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 23.250 seconds
+2025-01-30 16:22:06,105 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3948, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-30 16:22:06,121 - sanic.server - INFO - Starting worker [21720]
+2025-01-30 16:23:15,907 - sanic.server - INFO - Stopping worker [21720]
+2025-01-30 16:23:15,911 - sanic.server - INFO - Worker complete [21720]
+2025-01-30 16:23:15,911 - sanic.root - INFO - Server Stopped
+2025-01-30 16:23:31,418 - sanic.root - INFO - 
+  ┌──────────────────────────────────────────────────────────────────────────────┐
+  │                                Sanic v24.12.0                                │
+  │                       Goin' Fast @ http://0.0.0.0:8080                       │
+  ├───────────────────────┬──────────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app                  │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                       │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                                    │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0                  │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0, sanic-ext==23.12.0 │
+  │ [48;2;255;13;104m                     [0m │                                                      │
+  │ Build Fast. Run Fast. │                                                      │
+  └───────────────────────┴──────────────────────────────────────────────────────┘
+
+2025-01-30 16:23:31,433 - sanic.root - INFO - Sanic Extensions:
+2025-01-30 16:23:31,433 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-30 16:23:31,433 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-30 16:23:31,433 - sanic.root - INFO -   > http 
+2025-01-30 16:23:31,433 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-30 16:23:31,433 - __main__ - INFO - Loading ML models...
+2025-01-30 16:23:31,433 - __main__ - INFO - Using device: cpu
+2025-01-30 16:23:36,258 - __main__ - INFO - All models loaded successfully
+2025-01-30 16:23:36,290 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 4.860 seconds
+2025-01-30 16:23:36,290 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-30 16:23:36,305 - sanic.server - INFO - Starting worker [14320]
+2025-01-30 16:38:58,094 - sanic.server - INFO - Stopping worker [14320]
+2025-01-30 16:38:58,153 - sanic.server - INFO - Worker complete [14320]
+2025-01-30 16:38:58,155 - sanic.root - INFO - Server Stopped

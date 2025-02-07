@@ -1,0 +1,55 @@
+2025-01-10 13:48:24,162 - sanic.root - INFO - 
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                             Sanic v24.12.0                             │
+  │                    Goin' Fast @ http://0.0.0.0:8080                    │
+  ├───────────────────────┬────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                      │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                              │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0            │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0,              │
+  │ [48;2;255;13;104m                     [0m │           sanic-ext==23.12.0                   │
+  │ Build Fast. Run Fast. │                                                │
+  └───────────────────────┴────────────────────────────────────────────────┘
+
+2025-01-10 13:48:24,193 - sanic.root - INFO - Sanic Extensions:
+2025-01-10 13:48:24,193 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-10 13:48:24,193 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-10 13:48:24,193 - sanic.root - INFO -   > http 
+2025-01-10 13:48:24,193 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-10 13:48:24,193 - __main__ - INFO - Loading ML models...
+2025-01-10 13:48:24,193 - __main__ - INFO - Using device: cpu
+2025-01-10 13:48:29,764 - __main__ - INFO - All models loaded successfully
+2025-01-10 13:48:29,814 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 5.625 seconds
+2025-01-10 13:48:29,818 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3088, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-10 13:48:29,818 - sanic.server - INFO - Starting worker [26148]
+2025-01-10 13:58:05,284 - sanic.server - INFO - Stopping worker [26148]
+2025-01-10 13:58:05,300 - sanic.server - INFO - Worker complete [26148]
+2025-01-10 13:58:05,315 - sanic.root - INFO - Server Stopped
+2025-01-10 13:58:16,193 - sanic.root - INFO - 
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                             Sanic v24.12.0                             │
+  │                    Goin' Fast @ http://0.0.0.0:8080                    │
+  ├───────────────────────┬────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                      │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                              │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0            │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0,              │
+  │ [48;2;255;13;104m                     [0m │           sanic-ext==23.12.0                   │
+  │ Build Fast. Run Fast. │                                                │
+  └───────────────────────┴────────────────────────────────────────────────┘
+
+2025-01-10 13:58:16,213 - sanic.root - INFO - Sanic Extensions:
+2025-01-10 13:58:16,213 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-10 13:58:16,214 - sanic.root - INFO -   > openapi [http://0.0.0.0:8080/docs]
+2025-01-10 13:58:16,214 - sanic.root - INFO -   > http 
+2025-01-10 13:58:16,214 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-10 13:58:16,218 - __main__ - INFO - Loading ML models...
+2025-01-10 13:58:16,219 - __main__ - INFO - Using device: cpu
+2025-01-10 13:58:21,163 - __main__ - INFO - All models loaded successfully
+2025-01-10 13:58:21,211 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 5.000 seconds
+2025-01-10 13:58:21,211 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8080)>,)> is serving
+2025-01-10 13:58:21,226 - sanic.server - INFO - Starting worker [24232]

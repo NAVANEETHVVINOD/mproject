@@ -1,0 +1,314 @@
+2025-01-06 15:32:21,993 - sanic.root - [34mDEBUG[0m - Creating multiprocessing context using 'spawn'
+2025-01-06 15:32:21,997 - sanic.root - [34mDEBUG[0m - [34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+2025-01-06 15:32:29,911 - __mp_main__ - INFO - Initializing ML models...
+2025-01-06 15:32:35,834 - __mp_main__ - ERROR - Failed to initialize ML models: Could not load model Helsinki-NLP/opus-mt-ml-en with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.marian.modeling_marian.MarianMTModel'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 118, in start
+    assert not _current_process._config.get('daemon'), \
+AssertionError: daemonic processes are not allowed to have children
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+while loading with MarianMTModel, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 118, in start
+    assert not _current_process._config.get('daemon'), \
+AssertionError: daemonic processes are not allowed to have children
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+
+
+2025-01-06 15:32:35,842 - asyncio - WARNING - Executing <Task pending name='Task-2' coro=<Sanic._server_event() running at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2440> cb=[_run_until_complete_cb() at C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py:184] created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 5.937 seconds
+2025-01-06 15:32:35,842 - sanic.error - [31mERROR[0m - Could not load model Helsinki-NLP/opus-mt-ml-en with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.marian.modeling_marian.MarianMTModel'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 118, in start
+    assert not _current_process._config.get('daemon'), \
+AssertionError: daemonic processes are not allowed to have children
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+while loading with MarianMTModel, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 118, in start
+    assert not _current_process._config.get('daemon'), \
+AssertionError: daemonic processes are not allowed to have children
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\serve.py", line [36m[1m121[0m, in [34m[1mworker_serve[0m
+[33m    return _serve_http_1([0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\server\runners.py", line [36m[1m260[0m, in [34m[1m_serve_http_1[0m
+[33m    loop.run_until_complete(app._server_event("init", "before"))[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\asyncio\base_events.py", line [36m[1m649[0m, in [34m[1mrun_until_complete[0m
+[33m    return future.result()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py", line [36m[1m2440[0m, in [34m[1m_server_event[0m
+[33m    await self.dispatch([0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\signals.py", line [36m[1m303[0m, in [34m[1mdispatch[0m
+[33m    return await dispatch[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\signals.py", line [36m[1m263[0m, in [34m[1m_dispatch[0m
+[33m    raise e[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\signals.py", line [36m[1m247[0m, in [34m[1m_dispatch[0m
+[33m    retval = await maybe_coroutine[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py", line [36m[1m1622[0m, in [34m[1m_listener[0m
+[33m    await maybe_coro[0m
+  File "C:\Users\smith\SIN01\backend\main.py", line [36m[1m199[0m, in [34m[1msetup_models[0m
+[33m    initialize_models()[0m
+  File "C:\Users\smith\SIN01\backend\main.py", line [36m[1m88[0m, in [34m[1minitialize_models[0m
+[33m    pipe_translate = pipeline("translation", model="Helsinki-NLP/opus-mt-ml-en")[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\__init__.py", line [36m[1m940[0m, in [34m[1mpipeline[0m
+[33m    framework, model = infer_framework_load_model([0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line [36m[1m302[0m, in [34m[1minfer_framework_load_model[0m
+[33m    raise ValueError([0m
+[38;2;255;13;104m[1mValueError[0m: [1mCould not load model Helsinki-NLP/opus-mt-ml-en with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.marian.modeling_marian.MarianMTModel'>). See the original errors:[0m
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line [36m[1m3897[0m, in [34m[1mfrom_pretrained[0m
+[33m    ).start()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line [36m[1m118[0m, in [34m[1mstart[0m
+[33m    assert not _current_process._config.get('daemon'), \[0m
+[38;2;255;13;104m[1mAssertionError[0m: [1mdaemonic processes are not allowed to have children[0m
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line [36m[1m289[0m, in [34m[1minfer_framework_load_model[0m
+[33m    model = model_class.from_pretrained(model, **kwargs)[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\models\auto\auto_factory.py", line [36m[1m564[0m, in [34m[1mfrom_pretrained[0m
+[33m    return model_class.from_pretrained([0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line [36m[1m3941[0m, in [34m[1mfrom_pretrained[0m
+[33m    raise EnvironmentError([0m
+[38;2;255;13;104m[1mOSError[0m: [1mCan't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.[0m
+
+while loading with MarianMTModel, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line [36m[1m3897[0m, in [34m[1mfrom_pretrained[0m
+[33m    ).start()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line [36m[1m118[0m, in [34m[1mstart[0m
+[33m    assert not _current_process._config.get('daemon'), \[0m
+[38;2;255;13;104m[1mAssertionError[0m: [1mdaemonic processes are not allowed to have children[0m
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line [36m[1m289[0m, in [34m[1minfer_framework_load_model[0m
+[33m    model = model_class.from_pretrained(model, **kwargs)[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line [36m[1m3941[0m, in [34m[1mfrom_pretrained[0m
+[33m    raise EnvironmentError([0m
+[38;2;255;13;104m[1mOSError[0m: [1mCan't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.[0m
+
+
+2025-01-06 15:32:35,854 - sanic.error - [31mERROR[0m - Not all workers acknowledged a successful startup. Shutting down.
+
+One of your worker processes terminated before startup was completed. Please solve any errors experienced during startup. If you do not see an exception traceback in your error logs, try running Sanic in a single process using --single-process or single_process=True. Once you are confident that the server is able to start without errors you can switch back to multiprocess mode.
+2025-01-06 15:32:35,854 - sanic.root - INFO - Killing Sanic-Server-0-0 [4604]
+2025-01-06 15:32:35,854 - sanic.error - [31mERROR[0m - Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\mixins\startup.py", line [36m[1m1141[0m, in [34m[1mserve[0m
+[33m    manager.run()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\manager.py", line [36m[1m194[0m, in [34m[1mrun[0m
+[33m    self.monitor()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\manager.py", line [36m[1m291[0m, in [34m[1mmonitor[0m
+[33m    self.wait_for_ack()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\manager.py", line [36m[1m338[0m, in [34m[1mwait_for_ack[0m
+[33m    self.kill()[0m
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\worker\manager.py", line [36m[1m375[0m, in [34m[1mkill[0m
+[33m    os.killpg(os.getpgid(process.pid), SIGKILL)[0m
+[38;2;255;13;104m[1mAttributeError[0m: [1mmodule 'os' has no attribute 'killpg'. Did you mean: 'kill'?[0m
+2025-01-06 15:32:35,858 - sanic.root - INFO - Server Stopped
+2025-01-06 15:32:46,436 - sanic.error - [33mWARN[0m - Worker shutdown timed out. Some processes may still be running.
+2025-01-06 15:32:47,210 - sanic.root - [34mDEBUG[0m - At� logo
+2025-01-06 15:38:54,320 - __main__ - INFO - Initializing ML models...
+2025-01-06 15:39:04,451 - __main__ - INFO - ML models initialized successfully
+2025-01-06 15:39:04,652 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3244, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8000)>,)> is serving
+2025-01-06 15:39:04,671 - sanic.server - INFO - Starting worker [3744]
+2025-01-06 15:39:17,713 - __mp_main__ - INFO - Initializing ML models...
+2025-01-06 15:39:25,971 - __mp_main__ - ERROR - Failed to initialize ML models: Could not load model Helsinki-NLP/opus-mt-ml-en with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.marian.modeling_marian.MarianMTModel'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\context.py", line 336, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\popen_spawn_win32.py", line 45, in __init__
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+while loading with MarianMTModel, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3897, in from_pretrained
+    ).start()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\context.py", line 336, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\popen_spawn_win32.py", line 45, in __init__
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "C:\Users\smith\anaconda3\envs\env\lib\multiprocessing\spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "C:\Users\smith\anaconda3\envs\env\lib\site-packages\transformers\modeling_utils.py", line 3941, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'Helsinki-NLP/opus-mt-ml-en'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-ml-en' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+
+
+
+2025-01-06 15:43:02,327 - sanic.server - INFO - Stopping worker [3744]
+2025-01-06 15:43:02,342 - sanic.server - INFO - Worker complete [3744]
+2025-01-06 15:43:02,342 - sanic.root - INFO - Server Stopped
+2025-01-06 15:43:15,146 - sanic.root - INFO - 
+  ┌─────────────────────────────────────────────────────────────┐
+  │                        Sanic v24.12.0                       │
+  │               Goin' Fast @ http://0.0.0.0:8000              │
+  ├───────────────────────┬─────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker      │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1           │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                   │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0    │
+  │ [48;2;255;13;104m                     [0m │                                     │
+  │ Build Fast. Run Fast. │                                     │
+  └───────────────────────┴─────────────────────────────────────┘
+
+2025-01-06 15:43:15,175 - __main__ - INFO - Loading ML models...
+2025-01-06 15:43:15,175 - __main__ - INFO - Using device: cpu
+2025-01-06 15:43:21,406 - __main__ - INFO - All models loaded successfully
+2025-01-06 15:43:21,406 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 6.235 seconds
+2025-01-06 15:43:21,409 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=3484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8000)>,)> is serving
+2025-01-06 15:43:21,423 - sanic.server - INFO - Starting worker [15156]
+2025-01-06 15:51:38,281 - sanic.server - INFO - Stopping worker [15156]
+2025-01-06 15:51:38,314 - sanic.server - INFO - Worker complete [15156]
+2025-01-06 15:51:38,314 - sanic.root - INFO - Server Stopped
+2025-01-06 15:51:54,183 - sanic.root - INFO - 
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                             Sanic v24.12.0                             │
+  │                    Goin' Fast @ http://0.0.0.0:8000                    │
+  ├───────────────────────┬────────────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │      app: medical_transcription_app            │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │     mode: debug, single worker                 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │   server: sanic, HTTP/1.1                      │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │   python: 3.10.16                              │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │ platform: Windows-10-10.0.22631-SP0            │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ packages: sanic-routing==23.12.0,              │
+  │ [48;2;255;13;104m                     [0m │           sanic-ext==23.12.0                   │
+  │ Build Fast. Run Fast. │                                                │
+  └───────────────────────┴────────────────────────────────────────────────┘
+
+2025-01-06 15:51:54,230 - sanic.root - INFO - Sanic Extensions:
+2025-01-06 15:51:54,230 - sanic.root - INFO -   > injection [0 dependencies; 0 constants]
+2025-01-06 15:51:54,230 - sanic.root - INFO -   > openapi [http://0.0.0.0:8000/docs]
+2025-01-06 15:51:54,230 - sanic.root - INFO -   > http 
+2025-01-06 15:51:54,230 - sanic.root - INFO -   > templating [jinja2==3.1.5]
+2025-01-06 15:51:54,246 - __main__ - INFO - Loading ML models...
+2025-01-06 15:51:54,246 - __main__ - INFO - Using device: cpu
+2025-01-06 15:52:02,990 - __main__ - INFO - All models loaded successfully
+2025-01-06 15:52:03,044 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic._server_event() done, defined at C:\Users\smith\anaconda3\envs\env\lib\site-packages\sanic\app.py:2422> result=None created at C:\Users\smith\anaconda3\envs\env\lib\asyncio\tasks.py:636> took 8.812 seconds
+2025-01-06 15:52:03,049 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=220, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 8000)>,)> is serving
+2025-01-06 15:52:03,061 - sanic.server - INFO - Starting worker [27640]
+2025-01-06 16:09:13,541 - sanic.server - INFO - Stopping worker [27640]
+2025-01-06 16:09:13,588 - sanic.server - INFO - Worker complete [27640]
+2025-01-06 16:09:13,588 - sanic.root - INFO - Server Stopped
